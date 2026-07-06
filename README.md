@@ -1,6 +1,6 @@
 # DitsWorker v5
 
-Internal tool for automating the Roblox login step in MayoBlox's account processing workflow. Takes a batch of accounts (username, password, and up to 5 backup codes), logs them in one by one through a controlled browser session, resolves two-step verification when needed, and reports per-account status (success, failed, or needs manual attention) through a simple web dashboard.
+Internal tool for automating the Roblox login step account processing workflow. Takes a batch of accounts (username, password, and up to 5 backup codes), logs them in one by one through a controlled browser session, resolves two-step verification when needed, and reports per-account status (success, failed, or needs manual attention) through a simple web dashboard.
 
 > This is an internal operational tool, not a general-purpose product. See [Risk & Disclaimer](#risk--disclaimer) before deploying it against real accounts at scale.
 
