@@ -555,11 +555,9 @@ body.modal-open {
     font-weight: 700;
     color: #d6e2f0;
     margin-bottom: 4px;
-    position: sticky;
-    top: 0;
-    background: transparent;
+    position: relative;
     padding-bottom: 8px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .progress-info {
