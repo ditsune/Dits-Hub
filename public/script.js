@@ -461,7 +461,7 @@ function displayResults(data) {
             return `
                 <div class="result-item ${statusClass}">
                     <span class="result-icon">${icon}</span>
-                    <span class="result-username">${r.username}</span>
+                    <span class="result-username" onclick="copyToClipboard('${r.username}')" title="Click to copy">${r.username}</span>
                     <span class="result-status">${r.status}</span>
                     <span class="result-message">${r.message || ''}</span>
                     ${extraInfo}
